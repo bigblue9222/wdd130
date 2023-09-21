@@ -1,16 +1,45 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+nav {
+ background-color: steelblue;
+ padding: 10px;
+} 
+nav a {
+ color: white;
+ display: block;
+ padding: 20px;
+}
+h1 {
+ color: steelblue;
+}
+img {
+ width: 150px;
+ height: auto;
+ border: 1px solid steelblue;
+ padding: 2px;
+ box-shadow: 0,0 30px grey;
+}
+p {
+  padding: 10px;
+}
+
+
 main {
  max-width: 840px;
 
 aside {
-    margin: 1em;
- border: 1px solid rgba(0,0,0.2); /*  1 */
+ margin: 1em;
+ border: 1px solid rgba(0,0,0.1);
  padding: 1em;
  background-color: #eee;
  color: #333;
  text-align: center;
 } 
 
- aisde img {
+aisde img {
     width: 200px;
     height: auto;
 }    
