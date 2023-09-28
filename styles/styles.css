@@ -39,6 +39,11 @@ main img {
     width: 150px;
     height: auto;
 }
+main img {
+  /* setting the float */
+  float: right;
+}
+
 
 aside {
     width: 20rem;
@@ -48,6 +53,12 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+}
+
+aside h2 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
 }
 
 aisde img {
@@ -64,5 +75,11 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-
-
+/* Class Selectors */
+*box {
+margin: 1rem;
+border: 1px solid rgba (0,0,0,.1);
+padding: 1rem;
+background-color: #ddd;
+color: #000;
+}
