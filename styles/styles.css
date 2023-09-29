@@ -72,12 +72,12 @@ footer {
 }
 /* Class Selectors */
 .box {
-margin: 1rem;
-border: 1px solid rgba (0 0 0 .1);
-padding: 1rem;
+margin: 1em;
+border: 1px;
+padding: 1em;
 background-color: #ddd;
 color: #000;
-}
+ }
 
 aside h2 {
   position: absolute;
